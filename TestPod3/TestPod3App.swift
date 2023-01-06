@@ -13,7 +13,8 @@ struct TestPod3App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            TestGenicView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
